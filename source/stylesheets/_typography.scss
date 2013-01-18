@@ -1,0 +1,45 @@
+html {
+  font-size: 100%;
+  color: $copy;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Monda', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.0rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 2.0rem;
+  margin-bottom: 1.6rem;
+  // text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  // display: block;
+  // text-align: center;
+}
+
+textarea {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}

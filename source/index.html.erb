@@ -1,0 +1,132 @@
+<div class="container">
+  <h1>Transcribt</h1>
+
+  <div class="file-picker">
+    <div class="plus">
+      <i class="icon-upload-alt"></i>
+    </div>
+    <div class="picker-call">Choose your file here.</div>
+    <div class="picker-formats">Supported file formats: MP3, OGG, M4A.</div>
+    <input type="file" id="file_input" />
+  </div>
+
+  <h2>Use Transcribt to transcribe all that pesky audio, <span class="feature">faster</span> and <span class="feature">privately</span>.</h2>
+
+  <p class="feature-privately">
+    <i class="icon-lock"></i>
+    Transcribt is built so that your recording and your transcription never leaves your browser. No data is ever transmitted to Transcribt, which means that your work is as safe and private as your computer and your choice of browser. Use an &ldquo;incognito&rdquo; or &ldquo;private browsing&rdquo; mode for even greater privacy.
+  </p>
+
+  <p class="feature-faster">
+    <i class="icon-fighter-jet"></i>
+    Transcribt strongly encourages the use of keyboard shortcuts in order to make transcriptions easier and faster. Press <em>&#60;Control&#62; + /</em> to see them for yourself. By utilizing shortcuts&mdash;and not that pesky mouse&mdash;you can keep your fingers on the keys, right where they need to be.
+  </p>
+
+  <section class="transcribe">
+
+    <div class="jplayer">
+      <div id="jplayer"></div>
+      <div id="jplayer-container" class="jp-audio">
+        <div id="#jp-type-single">
+          <div class="jp-gui jp-interface">
+            <div class="jp-progress-bar">
+              <div class="jp-seek-bar">
+                <div class="jp-play-bar"></div>
+              </div>
+            </div>
+            <div class="jp-volume-control">
+              <div class="jp-volume-bar">
+                <div class="jp-volume-bar-value">
+                </div>
+              </div>
+            </div>
+            <div class="meta">
+              <div class="jp-current-time"></div>
+              <div class="playback">Speed: 
+                <span class="playback-speed">1.0</span>
+              </div>
+              <div class="jp-duration"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="controls">
+      <ul>
+        <li class="c-play-pause">
+          <i class="icon-play"></i>
+          <span>Play / pause.</span>
+        </li>
+        <li class="c-step-back">
+          <i class="icon-backward"></i>
+          <span>Skip back 5 seconds.</span>
+        </li>
+        <li class="c-step-forward">
+          <i class="icon-forward"></i>
+          <span>Skip forward 5 seconds.</span>
+        </li>
+        <li class="c-drop-timestamp">
+          <i class="icon-time"></i>
+          <span>Paste timestamp at cursor.</span>
+        </li>
+        <li class="c-speed-up">
+          <i class="icon-double-angle-up"></i>
+          <span>Speed up audio.</span>
+        </li>
+        <li class="c-speed-down">
+          <i class="icon-double-angle-down"></i>
+          <span>Slow down audio.</span>
+        </li>
+        <li class="c-shortcuts">
+          <i class="icon-cog"></i>
+          <span>Show keyboard shortcuts.</span>
+        </li>
+      </ul>
+    </section>
+    <textarea placeholder="Start transcribing here." class="transcription mousetrap"></textarea>
+  </section>
+
+</div>
+
+<footer>
+  <div class="footer-container">
+    <p>Built by <a href="http://designbyjoel.com">Joel Hans</a>. I&rsquo;m looking for web design/development work.</a></p>
+    <p>Verify the claims of &ldquo;privacy&rdquo; on <a href="https://github.com/joelhans/Transcribt">Github</a>.</p>
+    <p>Help from <a href="http://middlemanapp.com/">Middleman</a>, <a href="http://jplayer.org/">jPlayer</a>, and <a href="http://craig.is/killing/mice">Mousetrap</a>.</p>
+  </div>
+</footer>
+
+<section class="shortcuts">
+  <ul>
+    <li>
+      <span>&#60;Control&#62; + / :</span>
+      <span>Show this dialog</span>
+    </li>
+    <li>
+      <span>&#60;Control&#62; + Space :</span>
+      <span>Play/pause</span>
+      </li>
+    <li>
+      <span>&#60;Control&#62; + h :</span>
+      <span>Rewind five seconds</span>
+    </li>
+    <li>
+      <span>&#60;Control&#62; + l :</span>
+      <span>Fast-forward five seconds</span>
+    </li>
+    <li>
+      <span>&#60;Control&#62; + j :</span>
+      <span>Speed up audio</span>
+    </li>
+    <li>
+      <span>&#60;Control&#62; + k :</span>
+      <span>Slow down audio</span>
+    </li>
+    <li>
+      <span>&#60;Control&#62; + s :</span>
+      <span>Paste timestamp at cursor</span>
+    </li>
+    <li class="shortcuts-close">Close</li>
+  </ul>
+</section>
