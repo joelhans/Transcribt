@@ -1,8 +1,14 @@
+# [Transcribt](http://designbyjoel.com/transcribt/) #
+
 Transcribt is a very simple web-based transcription tool that helps journalists, writers, podcasters, and anyone else with audio to transcribe get their job done faster and easier.
 
 It has two main features: speed/ease-of-use and privacy.
 
 Transcribt was built and is maintained by [Joel Hans](http://designbyjoel.com). Feel free to make pull requests for bugfixes and additional features.
+
+Try it out at [http://designbyjoel.com/transcribt/](http://designbyjoel.com/transcribt/).
+
+Or, read the [blog post](http://designbyjoel.com/blog/2013-01-24-better-transcribe/).
 
 ## Speed ##
 
@@ -19,6 +25,26 @@ There are a few features I would like to add that are still pending.
 * Ability to customize shortcuts (using localStorage to "save" them).
 * A "save" button that opens a "Save As" dialog for hard drive safekeeping (if that is even possible).
 * HTML5 drag-and-drop option for instancing files.
+
+## Running it locally and/or contributing ##
+
+First, install Middleman.
+
+    gem install middleman
+
+Clone the repository.
+
+    git clone git://github.com/joelhans/Transcribt.git
+
+cd into the repository
+
+    cd Transcribt/
+
+Run Middleman in server mode.
+
+    middleman server
+
+Make your changes. Submit pull request.
 
 ## License ##
 
